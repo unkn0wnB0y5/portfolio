@@ -5,7 +5,6 @@ import config from '../../../config.json';
 
 // Help
 export const help = async (args: string[]): Promise<string> => {
-  
   return `Welcome! Here are all the available commands:
 [tab]: trigger completion.
 [ctrl+l]/clear: clear terminal.\n
